@@ -1,0 +1,63 @@
+/* Stop Watch Start  */
+
+* {
+      margin: 0;
+      padding: 0;
+      outline: 0;
+}
+
+
+
+
+body {
+      background: #323532;
+      height: 100vh;
+      text-align: center;
+
+}
+
+.main{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+}
+
+
+
+.mainclock{
+      background: url(../images/background.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+}
+.mainclock h1 {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      color: rgb(0 0 0);
+      font-size: 35px;
+      font-weight: 800;
+  }
+
+  .mainclock ampm {
+      position: absolute;
+      left: 50%;
+      top: 69%;
+      transform: translate(-50%, -50%);
+      color: rgb(50 53 50);
+      font-size: 30px;
+      font-weight: 700;
+  }
+  
+
+
+
+
+
+
+/* Stop Watch SEnd */
